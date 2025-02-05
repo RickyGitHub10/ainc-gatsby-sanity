@@ -20,7 +20,7 @@ const ParkingPage = ({ data }) => {
           xl={{ offset: 3, span: 6 }}
         >
           <Title className="text-uppercase text-center text-black mt-5 mb-5">
-            Parking
+            TestParking
           </Title>
           <p className={`text-black mb-3 ps-3`}>
             After 5pm, free parking spaces are widely available downtown.
@@ -35,6 +35,24 @@ const ParkingPage = ({ data }) => {
             lg={{ offset: 4 }}
             xl={{ offset: 4, span: 5 }}
           >
+            <Row className="justify-content-center">
+              <Col
+                xs={12}
+                md={10}
+                lg={10}
+                xl={8}
+                className="d-flex justify-content-center"
+              >
+                <iframe
+                  src="https://www.google.com/maps/d/embed?mid=1tuKBp8oRRCexyub92RobT_smUMI&hl=en&ehbc=2E312F"
+                  width="600"
+                  height="440"
+                  style={{ border: 0 }}
+                  allowFullScreen
+                  loading="lazy"
+                ></iframe>
+              </Col>
+            </Row>
             <a
               target="_blank"
               href="https://www.google.com/maps/d/u/0/viewer?ll=38.041576999999975%2C-84.49243799999999&hl=en&f=q&hq=parking%20near%20awesome%20inc&source=s_q&spn=0.003333%2C0.004823&t=h&geocode&msa=0&z=18&ie=UTF8&hnear&mid=1tuKBp8oRRCexyub92RobT_smUMI"

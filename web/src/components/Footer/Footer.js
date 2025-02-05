@@ -71,7 +71,7 @@ const Footer = () => {
               <Row className={styles.firstColRow}>
                 <ul className={styles.infoList}>
                   <li className={styles.mainLine}>
-                    348 E Main St, Lexington, KY
+                    Test348 E Main St, Lexington, KY
                   </li>
                   <li>
                     <FaEnvelope className={styles.redIcon} />
